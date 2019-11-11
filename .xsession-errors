@@ -1,0 +1,121 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/junebug/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/junebug
+dbus-update-activation-environment: setting USER=junebug
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/junebug
+dbus-update-activation-environment: setting HOME=/home/junebug
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=junebug
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/junebug/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:1200): xfce4-session-WARNING **: 15:12:36.941: xfsm_manager_load_session: Something wrong with /home/junebug/.cache/sessions/xfce4-session-junebug-VirtualBox:0, Does it exist? Permissions issue?
+
+(polkit-gnome-authentication-agent-1:1266): GLib-CRITICAL **: 15:12:38.080: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1266): polkit-gnome-1-WARNING **: 15:12:38.081: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:1221): xfsettingsd-WARNING **: 15:12:39.381: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+** (wrapper-2.0:1376): WARNING **: 15:12:42.274: No outputs have backlight property
+
+(wrapper-2.0:1369): GLib-GIO-CRITICAL **: 15:12:42.350: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1369): GLib-GIO-CRITICAL **: 15:12:42.369: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1369): GLib-GObject-WARNING **: 15:12:42.370: invalid (NULL) pointer instance
+
+(wrapper-2.0:1369): GLib-GObject-CRITICAL **: 15:12:42.370: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1369): Gtk-WARNING **: 15:12:42.370: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1369): Gtk-WARNING **: 15:12:42.592: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1381): Gtk-WARNING **: 15:12:42.623: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1376): Gtk-WARNING **: 15:12:43.335: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:1351): Gtk-WARNING **: 15:12:43.500: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(nm-applet:1240): Gtk-WARNING **: 15:12:43.890: Can't set a parent on widget which has a parent
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+(xfce4-session:1200): Gtk-CRITICAL **: 17:14:21.691: IA__gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(xfce4-session:1200): Gtk-CRITICAL **: 17:14:28.871: IA__gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(xfwm4:1211): xfwm4-WARNING **: 17:14:32.688: output size (1366x728) and logical screen size (1366x768) do not match
+
+(xfwm4:1211): xfwm4-WARNING **: 17:15:19.184: output size (1366x768) and logical screen size (1366x728) do not match
+
+(xfce4-terminal:2678): Gdk-CRITICAL **: 17:18:25.835: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:28631): Gdk-CRITICAL **: 17:20:40.552: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:28717): Gdk-CRITICAL **: 17:21:44.831: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (133): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (128): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (127): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (125): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (123): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (160): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (133): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (129): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (127): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (125): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (168): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Child 2652, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x780001,name=PRemoteDecoderManager::Msg_PRemoteDecoderConstructor) Channel error: cannot send/recv
+
+[Child 2652, MediaPlayback #1] WARNING: Decoder=7fd90f4aa200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005): file /build/firefox-tGfEvD/firefox-68.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3307
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (120): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (148): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (129): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (124): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (126): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 2505, Gecko_IOThread] WARNING: pipe error (128): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0074,name=PBrowser::Msg_StopIMEStateManagement) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+(/usr/lib/firefox/firefox:12455): dconf-WARNING **: 17:56:14.687: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+(xfce4-terminal:13030): Gdk-CRITICAL **: 18:15:29.562: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+[Parent 12874, Gecko_IOThread] WARNING: pipe error (163): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 12874, Gecko_IOThread] WARNING: pipe error (159): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+(xfce4-terminal:13304): Gdk-CRITICAL **: 19:06:37.074: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(/usr/lib/firefox/firefox:26978): dconf-WARNING **: 19:18:42.695: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied

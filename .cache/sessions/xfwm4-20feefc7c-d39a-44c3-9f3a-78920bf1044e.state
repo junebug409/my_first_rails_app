@@ -1,0 +1,26 @@
+[CLIENT] 0x4200361
+  [CLIENT_ID] 24b3e034d-a123-447f-a30e-647046d0b185
+  [CLIENT_LEADER] 0x4200001
+  [WINDOW_ROLE] confirmEx
+  [RES_NAME] Prompt
+  [RES_CLASS] Firefox
+  [WM_NAME] Quit and close tabs?
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (460,343,447,130)
+  [GEOMETRY-MAXIMIZED] (460,343,447,130)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0
+[CLIENT] 0x4200003
+  [CLIENT_ID] 24b3e034d-a123-447f-a30e-647046d0b185
+  [CLIENT_LEADER] 0x4200001
+  [WINDOW_ROLE] browser
+  [RES_NAME] Navigator
+  [RES_CLASS] Firefox
+  [WM_NAME] Chapter 1: Basics and Navigation | Conquering the Command Line | Softcover.io - Mozilla Firefox
+  [WM_COMMAND] (1) "firefox"
+  [GEOMETRY] (0,49,1366,679)
+  [GEOMETRY-MAXIMIZED] (5,49,1229,574)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10380
